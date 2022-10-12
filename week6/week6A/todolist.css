@@ -1,0 +1,19 @@
+.header{
+    text-align: center;
+    margin: 20px 0;
+}
+
+.add{
+    background-color: #eeeeee;
+    padding: 10px 30px;
+    border-bottom: 1px solid #d5d5d5;
+}
+
+.holdInput{
+    border: 1px solid #d5d5d5;
+    margin-bottom: 50px;
+}
+
+.kokoInput{
+    padding: 10px 30px;
+}
