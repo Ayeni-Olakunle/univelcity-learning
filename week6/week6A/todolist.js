@@ -84,11 +84,47 @@
 let info = [];
 document.getElementById("submit").onclick = function (e) {
     e.preventDefault();
-    let def = document.getElementById("whatTodo")
-    info.push(def.value);
-    sessionStorage.setItem("todo", info);
-    console.log(def.value);
-    clear()
+    let task = document.getElementById("whatTodo")
+    if (task.value.length == 0) {
+        alert("Please add a task");
+    } else {
+        info.push(task.value);
+        document.getElementById("tableBody").innerHTML += `
+            <tr class="hold">
+                <td class="mainText">${task.value}</td>
+                <td>
+                <label>
+                <input type="checkbox" value="bananas">
+                <span>Complete</span>
+                </label>
+                </td>
+                <td>
+                <button type="button" class="btn btn-primary">Edit</button>
+                </td>
+                <td id="delete">
+                <button type="button" class="btn btn-danger">Delete</button>
+                </td>
+            </tr>
+        `;
+        let current_tasks = document.querySelectorAll("#delete");
+        for (var i = 0; i < current_tasks.length; i++) {
+            current_tasks[i].onclick = function () {
+                this.parentNode.remove();
+            }
+        }
+
+        let current_edit = document.querySelectorAll(".mainText");
+        for (var i = 0; i < current_edit.length; i++) {
+            current_edit[i].onclick = function () {
+                let frem = this.textContent;
+                task.value = frem.trim();
+                this.parentNode.remove();
+                console.log(frem);
+            }
+        }
+        clear()
+    }
+
 }
 
 function clear() {
