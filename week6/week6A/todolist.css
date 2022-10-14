@@ -17,3 +17,7 @@
 .kokoInput{
     padding: 10px 30px;
 }
+
+.mainText{
+    cursor: pointer;
+}

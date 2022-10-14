@@ -80,15 +80,12 @@
 // }
 
 
-
-let info = [];
 document.getElementById("submit").onclick = function (e) {
     e.preventDefault();
     let task = document.getElementById("whatTodo")
     if (task.value.length == 0) {
         alert("Please add a task");
     } else {
-        info.push(task.value);
         document.getElementById("tableBody").innerHTML += `
             <tr class="hold">
                 <td class="mainText">${task.value}</td>
@@ -97,9 +94,6 @@ document.getElementById("submit").onclick = function (e) {
                 <input type="checkbox" value="bananas">
                 <span>Complete</span>
                 </label>
-                </td>
-                <td>
-                <button type="button" class="btn btn-primary">Edit</button>
                 </td>
                 <td id="delete">
                 <button type="button" class="btn btn-danger">Delete</button>
@@ -119,7 +113,6 @@ document.getElementById("submit").onclick = function (e) {
                 let frem = this.textContent;
                 task.value = frem.trim();
                 this.parentNode.remove();
-                console.log(frem);
             }
         }
         clear()
