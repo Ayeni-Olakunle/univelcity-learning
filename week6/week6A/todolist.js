@@ -79,11 +79,10 @@
 //     console.log("Today is a normal day.");
 // }
 
-
 document.getElementById("submit").onclick = function (e) {
     e.preventDefault();
     let task = document.getElementById("whatTodo")
-    if (task.value.length == "") {
+    if (task.value.length == 0) {
         alert("Please add a task");
     } else {
         document.getElementById("tableBody").innerHTML += `
