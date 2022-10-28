@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+}
+
+.main{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.head{
+    text-align: center;
+    margin-bottom: 1em;
+}
+
+.holdInfo{
+    width: 70vw;
+    height: 85vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.form{
+    width: 45%;
+    padding: 10px;
+    border: 1.3px solid #cfcfcf;
+    border-radius: 5px;
+    height: 100%;
+}
+
+.renderInfo{
+    width: 45%;
+    border: 1.3px solid #cfcfcf;
+    border-radius: 5px;
+    height: 100%;
+    overflow-y: scroll;
+}
+.info{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border-bottom: 1px solid #cfcfcf
+}
+
+.edit{
+    font-size: 17px !important;
+    margin-right: 12px;
+    color: #1565c0;
+    font-weight: bold !important;
+    cursor: pointer;
+}
+
+.delete{
+    font-size: 17px !important;
+    color: #c62828;
+    font-weight: bold !important;
+    cursor: pointer;
+}
+
+.header{
+    font-size: 17px;
+    font-weight: bold;
+    margin: 0;
+}
+
+.desc{
+    font-size: 13px;
+    color: grey;
+    margin: 0;
+}

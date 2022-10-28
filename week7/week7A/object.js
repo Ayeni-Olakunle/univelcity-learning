@@ -8,3 +8,16 @@ const person = {
         return this.firstName + ' ' + this.secondName
     }
 }
+
+console.log(person.fullName());
+
+
+// GET Request Methods
+
+function todolist() {
+    fetch('https://jsonplaceholder.typicode.com/todos')
+        .then(response => response.json())
+        .then(json => console.log(json))
+}
+
+todolist()
