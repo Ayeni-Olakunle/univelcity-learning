@@ -1,0 +1,208 @@
+.infoMa{
+    padding: 1em 2em;
+}
+.prokIm{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: fit-content;
+}
+
+.imgi{
+    border-radius: 50%;
+    overflow: hidden;
+    height: 190px;
+    width: 190px;
+}
+
+.greenDot{
+    width: 20px;
+    height: 20px;
+    background-color: green;
+    border-radius: 50%;
+    margin-top: -20px;
+    margin-right: -90px;
+}
+
+.socialLink{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.name{
+    font-size: 27px;
+    color: white;
+    margin: 10px 0 0 0;
+}
+
+.positi{
+    font-size: 20px;
+    color: gray;
+    font-weight: bold;
+}
+
+.socialIcons {
+    width: 30px;
+    height: 30px;
+    background-color: rgb(255, 180, 0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.soIcons{
+    color: white;
+}
+
+.socialIcons:hover .soIcons{
+    color: black;
+}
+
+.holdLinks{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 70%;
+}
+
+.holdButin{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 30px;
+}
+
+.holdButin button{
+    padding: 15px;
+    width: 100%;
+    font-size: 17px;
+    background-color: #ffb400;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.AllSkills{
+    height: 255px;
+    border-top: 4px solid gray;
+    margin-top: 20px;
+    overflow-y: scroll;
+}
+
+.holdLoco{
+    border-bottom: 4px solid gray;
+}
+
+.loco{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 0;
+}
+
+.textLoco{
+    background-color: #ffb400;
+    color: white;
+    padding: 10px;
+    font-size: 17px;
+}
+
+.textLoco2{
+    color: white;
+    font-size: 17px;
+}
+
+.holdLangText{
+    width: 100%;
+}
+
+.lang{
+    font-size: 25px;
+    color: white;
+    margin: 10px 0 10px 0;
+}
+
+.langText{
+    color: white;
+    font-size: 17px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.langTextExtra{
+    color: white;
+    font-size: 20px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-bottom: 10px;
+    padding: 10px;
+}
+
+.langTextExtraIcon{
+    color: #ffb400;
+    margin-right: 10px;
+}
+
+.holdProgress{
+    width: 98%;
+    height: 6px;
+    border: 2px solid #ffb400;
+    border-radius: 50px;
+    margin-bottom: 10px;
+}
+
+.progress{
+    width: 90%;
+    height: 7px;
+    background-color: #ffb400;
+    border-radius: 50px;
+    margin-bottom: 10px;
+}
+
+.progressY{
+    width: 100%;
+    height: 7px;
+    background-color: #ffb400;
+    border-radius: 50px;
+    margin-bottom: 10px;
+}
+
+.progressI{
+    width: 40%;
+    height: 7px;
+    background-color: #ffb400;
+    border-radius: 50px;
+    margin-bottom: 10px;
+}
+
+.progressF{
+    width: 20%;
+    height: 7px;
+    background-color: #ffb400;
+    border-radius: 50px;
+    margin-bottom: 10px;
+}
+
+.progressCSS{
+    width: 80%;
+    height: 7px;
+    background-color: #ffb400;
+    border-radius: 50px;
+    margin-bottom: 10px;
+}
+
+.progressREACT{
+    width: 70%;
+    height: 7px;
+    background-color: #ffb400;
+    border-radius: 50px;
+    margin-bottom: 10px;
+}
