@@ -1,0 +1,33 @@
+.holdLand{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 20px;
+}
+
+.holdAllLand{
+    overflow-y: scroll;
+}
+
+.landImage{
+    width: 600px;
+}
+
+.ayeniEmmanuel{
+    font-size: 55px;
+    color: #ffb400;
+}
+
+.ayeniEmmanuel p{
+    color: white;
+    font-size: 22px;
+}
+
+.hireMe{
+    padding: 13px 35px;
+    font-size: 20px;
+    background-color: #ffb400;
+    border: none;
+    border-radius: 5px;
+}
