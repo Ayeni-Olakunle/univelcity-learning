@@ -5,6 +5,8 @@ import Index from './components/information/index';
 import Navigate from './components/navigation/navigate';
 import LandingPage from './components/content/landingPage';
 import Service from './components/content/service';
+import Education from './components/content/education';
+import Portfolios from './components/content/portfolios';
 
 function App() {
   return (
@@ -16,6 +18,8 @@ function App() {
         <Routes>
           <Route path="/" element={<LandingPage />} />
           <Route path="/services" element={<Service />} />
+          <Route path="/education" element={<Education />} />
+          <Route path="/portfolios" element={<Portfolios />} />
         </Routes>
       </div>
       <div className={appStyle.navigate}>

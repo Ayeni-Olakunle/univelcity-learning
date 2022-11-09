@@ -30,8 +30,8 @@ export default function Navigate(props) {
                         </Link>
                     </li>
                     <li onClick={ulrChange}>
-                        <Link to="/graduation">
-                            <GiGraduateCap className={currentPath === "/graduation" ? navStyle.icons2 : navStyle.icons} />
+                        <Link to="/education">
+                            <GiGraduateCap className={currentPath === "/education" ? navStyle.icons2 : navStyle.icons} />
                         </Link>
                     </li>
                     <li onClick={ulrChange}>

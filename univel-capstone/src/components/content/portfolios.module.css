@@ -1,0 +1,66 @@
+.headOne{
+    text-align: center;
+    color: white;
+    font-size: 40px;
+}
+
+.holdHeaderPTage{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2em;
+}
+
+.headerPTage{
+    color: white;
+    width: 50%;
+    text-align: center;
+    font-size: 17px;
+}
+
+.holdUnorderedList{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.unorderedList{
+    color: white;
+    font-size: 20px;
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 70%;
+}
+
+.unorderedList li{
+    cursor: pointer;
+}
+
+.unorderedList li:hover{
+    color: #ffb400;
+    transition: .5s;
+}
+.active{
+    color: #ffb400;
+    transition: .5s;
+}
+
+.firstHold{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: auto;
+    margin: 2em 0;
+    flex-direction: column;
+    align-items: center;
+}
+
+.clickType{
+    margin: 0;
+    margin-bottom: 30px;
+    font-size: 2.5em;
+    color: #ffb400;
+}

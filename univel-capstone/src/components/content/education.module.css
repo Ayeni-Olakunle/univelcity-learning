@@ -1,0 +1,52 @@
+.headOne{
+    text-align: center;
+    color: white;
+    font-size: 40px;
+}
+
+.holdHeaderPTage{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2em;
+}
+
+.headerPTage{
+    color: white;
+    width: 50%;
+    text-align: center;
+    font-size: 17px;
+}
+
+.holdEducation{
+    background-color: rgb(36, 37, 38);
+    padding: 30px;
+    margin: 0 25px;
+}
+
+.realInfo{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    border-bottom: 3px solid #5d5d5d;
+    padding: 13px 0;
+    color: white;
+    width: 100%;
+}
+
+.holdSchoolName{
+    width: 30%;
+}
+
+.holdSchoolInfo{
+    width: 70%;
+}
+
+.student{
+    font-size: 20px;
+}
+
+.startNend{
+    background-color: #ffb400;
+    margin-left: 20px;
+    padding: 2px 8px;
+}
