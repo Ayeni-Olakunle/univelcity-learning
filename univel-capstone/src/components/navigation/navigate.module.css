@@ -10,7 +10,7 @@
 }
 
 .icons  {
-    font-size: 30px;
+    font-size: 45px;
     background-color: gray;
     padding: 10px;
     border-radius: 50px;
@@ -19,7 +19,7 @@
 }
 
 .icons:hover  {
-    font-size: 30px;
+    font-size: 45px;
     background-color: #ffb400;
     padding: 10px;
     border-radius: 50px;
@@ -28,7 +28,7 @@
 }
 
 .icons2  {
-    font-size: 30px;
+    font-size: 45px;
     background-color: #ffb400;
     padding: 10px;
     border-radius: 50px;

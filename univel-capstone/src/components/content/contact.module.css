@@ -1,0 +1,74 @@
+.holdContact {
+    display: flex;
+    color: rgb(172 173 177);
+    justify-content: space-between;
+    padding: 3em;
+}
+
+.contactHeader{
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 1.5;
+    text-align: inherit;
+    color: rgb(172 173 177);
+    transition: all 400ms ease-in 0s;
+    margin: 0px;
+    padding: 0px;
+}
+
+.holdInput {
+    width: 45%;
+}
+
+.contactBack {
+    padding: 30px;
+    background: rgb(36, 37, 38);
+    transition: all 400ms ease-in 0s;
+    border-radius: 5px;
+    margin: 30px 0;
+}
+
+.formIput {
+    padding: 0.775rem 0.75rem !important;
+    background-color: #bebebe !important;
+}
+
+.formIput:focus {
+    border-color: #b8a67b !important;
+    box-shadow: 0 0 0 0.25rem rgb(255 180 0 / 14%) !important;
+}
+
+.subButin{
+    color: white !important;
+    background-color: #ffb400 !important;
+    border-color: #ffb400 !important;
+  }
+
+  .contactIcon{
+    font-size: 30px;
+    background-color: #ffb400;
+    color: white;
+    width: 55px;
+    height: 55px;
+    padding: 10px;
+    border-radius: 50px;
+  }
+
+  .holdIcon{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 0;
+  }
+
+.holdText{
+    font-size: 20px;
+}
+
+.pTag{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
